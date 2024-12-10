@@ -1,0 +1,22 @@
+# Asi se realiza un comentario en Git
+# Este sera ignorado por Git
+
+# Para ignorar un archivo especifico se pone:
+# Nombre + extension 
+Ejemplo.class
+
+# El "*" ayuda a ignorar todo en el repositorio local
+
+# Para ignorar una extencion en especifico se pone:
+# *.extension
+*.class
+
+# Si deseamos no ignorar un archivo especifico (excepcion) se pone:
+!Ejemplo2.class
+
+# Ignora el directorio especificado
+/Carpeta/
+
+# Ignorar archivo dentro de un directorio
+/Carpeta2/Ejemplo4.java
+
